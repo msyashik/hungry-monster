@@ -62,6 +62,7 @@ const singleFoodDetailShow = (singleFoodDetail) => {
     </div>
   `;
   imgDiv.innerHTML = upperDiv;
+  //showing the 20 ingredients dynamically
   for (let i = 1; i <= 20; i++) {
     const newDiv = document.createElement("div");
     const ingredientDetail = `strIngredient${i}`;
@@ -77,11 +78,13 @@ const singleFoodDetailShow = (singleFoodDetail) => {
         <small class="ingredients-text-col">${measureValue} ${ingredientValue}</small>
       </div>
       `;
+    newDiv.innerHTML = elementOfDiv;
+    //show first ten ingredient on the left
     if (i <= 10) {
-      newDiv.innerHTML = elementOfDiv;
       leftDiv.appendChild(newDiv);
-    } else {
-      newDiv.innerHTML = elementOfDiv;
+    }
+    //show last ten ingredient on the right
+    else {
       rightDiv.appendChild(newDiv);
     }
   }
