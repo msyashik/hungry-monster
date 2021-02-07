@@ -1,0 +1,75 @@
+.inputBox {
+  height: 45px;
+  border: none;
+}
+.total {
+  display: flex;
+}
+#searchBox {
+  width: 400px;
+  background-color: gainsboro;
+  padding: 20px;
+}
+#submitButton {
+  width: 100px;
+  background-color: orangered;
+  padding: 8px;
+  color: whitesmoke;
+}
+.fullInputArea {
+  width: 60%;
+
+  margin-top: 8%;
+  margin-left: 25%;
+}
+.fixImg {
+  width: 100%;
+}
+.designAllSingleContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.singleFoodCart {
+  width: 250px;
+}
+.mealName {
+  color: black;
+  font-size: 17px;
+}
+.divLower {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.detailDiv {
+  width: 400px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+.detailImg {
+  height: 300px;
+  width: 100%;
+}
+.errorShow {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-right-merge {
+  display: flex;
+}
+.fixRightDiv {
+  margin-left: 5%;
+}
+.ingredients-text-col {
+  color: #6c6c6c;
+}
+.navBrandFont {
+  font-weight: 700;
+}
